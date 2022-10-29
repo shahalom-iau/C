@@ -2,7 +2,7 @@
 
 int main()
 {
-GoTo is Mainly used for exiting from every nested loop in a line.
+//GoTo is Mainly used for exiting from every nested loop in a line.
     label:
         printf("This is inside label\n");
         goto end;
