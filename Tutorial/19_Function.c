@@ -36,3 +36,27 @@
 
 //Without Argument & with Return Value
 
+#include <stdio.h>
+int Number()
+{
+    int i;
+    printf("Enter a Number: ");
+    scanf("%d",&i);
+    return i;
+
+}    
+int main()
+{
+    int c = Number();
+    printf("The Number You Enterd is %d", c);
+
+}
+
+void myname(){
+printf("my name is Sharma");
+}
+int main(){
+printf("what is your name?");
+myname();
+return 0;
+}
