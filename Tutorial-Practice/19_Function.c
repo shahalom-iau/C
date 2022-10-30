@@ -52,11 +52,3 @@ int main()
 
 }
 
-void myname(){
-printf("my name is Sharma");
-}
-int main(){
-printf("what is your name?");
-myname();
-return 0;
-}
