@@ -2,7 +2,7 @@
  
 int main(){
     
-    int num[100],n,i,max;
+    int num[100],n,i,max, loc=0;
     printf("How many Numbers: ");
     scanf("%d",&n);
 
@@ -17,9 +17,12 @@ int main(){
     {
         if (max<num[i])
             max=num[i];
+            loc=i;
+
         
     }
     printf("Maximum Number is: %d\n", max);
+    printf("Location is: %d\n", loc);
     
     
 return 0;
