@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dir= path.join('D:/CODING/C/Other-Practice')
+const dir= path.join(__dirname,'../Other-Practice')
 // const dir= path.join('D:/CODING/C/Tutorial-Practice')
 
 fs.readdir(dir,(_,files)=>{
